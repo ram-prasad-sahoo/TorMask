@@ -152,7 +152,7 @@ To ensure that the proxy is set up correctly:
 
 If you need help or have any questions, feel free to reach out to me:
 
-- **GitHub Issues**: You can open an issue on the [GitHub Issues page](https://github.com/ram-prasad-sahoo/BYPASS-4XX/issues) for technical support or reporting bugs.
+- **GitHub Issues**: You can open an issue on the [GitHub Issues page](https://github.com/ram-prasad-sahoo/TorMask/issues) for technical support or reporting bugs.
   
 - **Email**: You can contact me directly by clicking the button below:
 
