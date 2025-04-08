@@ -91,7 +91,6 @@ Error retrieving auth cookie: Could not find a valid Tor authentication cookie a
    sudo systemctl restart tor
    ```
 
----
 
 ### 2. **Automatic Configuration**:
    The script checks for the required software and makes necessary adjustments to the `torrc` file. It ensures the following Tor settings are applied:
