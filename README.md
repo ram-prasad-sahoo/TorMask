@@ -70,7 +70,7 @@ Follow the steps below to set up **TorMasker** on your system.
    ```
    
    ```bash
-   sudo python3 tor_masker.py
+   sudo python3 tormask.py
    ```
 ---
 
