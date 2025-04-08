@@ -100,12 +100,26 @@ This project is open-source. Feel free to fork and contribute. 💡
 
 ---
 
-## 💬 **Contact**:
 
-For issues or feedback, please reach out to the author:  
-**RAM** - [Your LinkedIn](https://www.linkedin.com/in/your-profile)
+## 💬 **Support**
+
+If you need help or have any questions, feel free to reach out to me:
+
+- **GitHub Issues**: You can open an issue on the [GitHub Issues page](https://github.com/ram-prasad-sahoo/BYPASS-4XX/issues) for technical support or reporting bugs.
+  
+- **Email**: You can contact me directly by clicking the button below:
+
+[![Contact via Gmail](https://img.shields.io/badge/Contact%20via-Gmail-c14438?style=flat&logo=gmail&logoColor=white)](mailto:ramprasadsahoo42@gmail.com)
+
+- **LinkedIn**: Connect with me on LinkedIn by clicking the button below:
+
+[![Connect via LinkedIn](https://img.shields.io/badge/Connect%20via-LinkedIn-0077b5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramprasadsahoo/)
 
 ---
+
+I aim to respond as quickly as possible, and your feedback is highly appreciated. Thank you for using **TorMask**!
+
+
 
 ## 🛑 **Important Notes**:
 
