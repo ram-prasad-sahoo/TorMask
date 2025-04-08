@@ -3,6 +3,7 @@
 
 **TorMasker** is a powerful script designed to frequently change your public IP address using the Tor network. With a simple and automated setup, this tool ensures privacy by rotating IPs every few seconds and logging each IP change along with its location (country and city).
 
+![TorMask](https://github.com/ram-prasad-sahoo/TorMask/blob/main/tool.png)
 ---
 
 ## 📦 **Features**
@@ -54,12 +55,43 @@ Follow the steps below to set up **TorMasker** on your system.
 
 ## ⚙️ **Setup**:
 
-### 1. **Run the Script as Root**:
+### **Run the Script as Root**:
    The script requires root privileges to perform certain actions. If you're not logged in as root, you’ll need to use `sudo`:
 
    ```bash
+   git clone https://github.com/ram-prasad-sahoo/TorMask.git
+   ```
+   ```bash
+   cd TorMask
+   ```
+   Create a virtual environment (optional but recommended):
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+   ```bash
    sudo python3 tor_masker.py
    ```
+---
+
+## 🚨 **Error Handling:**
+
+If you encounter the following error:
+
+```
+Error retrieving auth cookie: Could not find a valid Tor authentication cookie at expected paths.
+```
+![TorMask](https://github.com/ram-prasad-sahoo/TorMask/blob/main/ERROR.png)
+
+**Solution:**
+
+1. Ensure that the Tor service is running. Start or restart Tor using the following commands:
+   ```bash
+   sudo systemctl start tor
+   sudo systemctl restart tor
+   ```
+
+---
 
 ### 2. **Automatic Configuration**:
    The script checks for the required software and makes necessary adjustments to the `torrc` file. It ensures the following Tor settings are applied:
@@ -78,25 +110,40 @@ After the initial setup, you can use the script to change your IP address. You c
 2. **Input the time interval** (in seconds) to change your IP address.
 3. **Watch the magic happen**! 🌟 Your IP will change every few seconds.
 
+
+### 🌐 **Setting Up Proxy in Browser**
+
+To ensure that your browser is routed through the Tor network, follow these steps:
+
+1. **Open Your Browser**:
+   - Launch the browser you use (e.g., Chrome, Firefox).
+
+2. **Access Browser Settings**:
+   - Go to the browser's **Settings** menu.
+
+3. **Search for Proxy Settings**:
+   - In the settings search bar, type **"proxy"** or navigate to **Proxy Configuration**.
+
+4. **Enable Manual Proxy Configuration**:
+   - In the **Network Settings** or **Connection Settings**, select **Manual Proxy Configuration**.
+
+5. **Set SOCKS Proxy**:
+   - In **SOCKS Host**, enter **127.0.0.1** (This is your local IP address).
+   - Set the **Port** to **9050** (the default Tor port).
+
+6. **Save Settings**:
+   - Once done, click **OK** or **Save** to apply the changes.
+
 ---
 
-## 📂 **Logs**:
-The script logs every IP change in a file located at:
+### 🛠️ **Verify the Connection**
 
-```
-~/Desktop/tor_ip_changed_log.txt
-```
+To ensure that the proxy is set up correctly:
 
-The log includes:
-- New IP Address 🌐
-- Country & City 📍
-- Timestamp 🕒
+1. Open your browser and visit [check.torproject.org](https://check.torproject.org).
+2. If the page shows "Congratulations. This browser is configured to use Tor," your connection is set up successfully.
+3. Additionally, you can check for any potential DNS leaks to ensure your real IP is hidden.
 
----
-
-## 📜 **License**:
-
-This project is open-source. Feel free to fork and contribute. 💡
 
 ---
 
@@ -118,6 +165,10 @@ If you need help or have any questions, feel free to reach out to me:
 ---
 
 I aim to respond as quickly as possible, and your feedback is highly appreciated. Thank you for using **TorMask**!
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 
