@@ -1,7 +1,7 @@
 
-# 🛡️ **TorMasker** 🛡️
+# 🛡️ **TorMask** 🛡️
 
-**TorMasker** is a powerful script designed to frequently change your public IP address using the Tor network. With a simple and automated setup, this tool ensures privacy by rotating IPs every few seconds and logging each IP change along with its location (country and city).
+**TorMask** is a powerful script designed to frequently change your public IP address using the Tor network. With a simple and automated setup, this tool ensures privacy by rotating IPs every few seconds and logging each IP change along with its location (country and city).
 
 ![TorMask](https://github.com/ram-prasad-sahoo/TorMask/blob/main/tool.png)
 ---
@@ -16,7 +16,7 @@
 
 ## 🔧 **Installation**
 
-Follow the steps below to set up **TorMasker** on your system.
+Follow the steps below to set up **TorMask** on your system.
 
 ### Prerequisites:
 1. **Root Privileges**: The script needs to be run as root.
